@@ -3,6 +3,7 @@ services:
     rancher:
         image: rancher/rancher:v2.7.0
         container_name: rancher
+        # restart: always
         ports:
             # do not change port
             - "80:80/tcp"
